@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PageStyles xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <Page Name="First Right" Padding="20px" PageType="firstright" PaddingLeft="1in" PaddingRight="1in" PaddingTop="1in" PaddingBottom="1in" BleedLeft="0.25in" Orientation="portrait" BleedBottom="0.25in" BleedTop="0.25in" BleedRight="0.25in" PageSize="Letter" BackgroundType="Solid" BackgroundColor="#000000">
+        <Frame Flow="footer" Height="47px" Anchors="Left,Right,Bottom" Right="0px" Bottom="0px" X="0px" Y="817px" Width="624px" TextAlign="right" VerticalAlign="top">
+            <Content>
+                <xhtml:html xmlns:xhtml="http://www.w3.org/1999/xhtml">
+                    <xhtml:head>
+                    </xhtml:head>
+                    <xhtml:body>
+                        <xhtml:p xhtml:class="FrameFooterText">
+                            <xhtml:img xhtml:src="../Images/FooterCircle.eps" xhtml:style="max-width: 30px;" />&#160;<xhtml:img xhtml:src="../Images/FooterCircle.eps" xhtml:style="max-width: 30px;" />&#160;<xhtml:img xhtml:src="../Images/FooterLogo.eps" xhtml:style="max-width: 30px;" /></xhtml:p>
+                    </xhtml:body>
+                </xhtml:html>
+            </Content>
+        </Frame>
+        <Frame X="0px" Y="138px" Width="624px" Height="43px" FlowIndex="4" Flow="body" Right="0px" Bottom="683px" Anchors="Left,Right,Top" />
+        <Frame Flow="body" Y="252px" Bottom="72px" X="0px" Right="0px" ColumnCount="1" ColumnGap="30px" ColumnDivider="Solid 1px Red" Anchors="Left,Right,Bottom" Width="624px" Height="540px" FlowIndex="5">
+        </Frame>
+    </Page>
+    <Page Name="Left" Padding="20px" PageType="left" PaddingLeft="1in" PaddingRight="1in" PaddingTop="1in" PaddingBottom="1in" BleedLeft="0.25in" Orientation="portrait" BleedBottom="0.25in" BleedTop="0.25in" BleedRight="0.25in" PageSize="Letter">
+        <Frame Flow="body" Y="0px" Bottom="72px" X="0px" Right="0px" ColumnCount="1" ColumnGap="30px" ColumnDivider="Solid 1px Red" Anchors="Left,Right,Top,Bottom" Width="624px" Height="792px">
+        </Frame>
+        <Frame Flow="footer" Height="47px" Anchors="Left,Right,Bottom" Right="0px" Bottom="0px" X="0px" Y="817px" Width="624px" TextAlign="left" VerticalAlign="top">
+            <Content>
+                <xhtml:html xmlns:xhtml="http://www.w3.org/1999/xhtml">
+                    <xhtml:head>
+                    </xhtml:head>
+                    <xhtml:body>
+                        <xhtml:p xhtml:class="FrameFooterText"><MadCap:variable xhtml:name="System.PageNumber" />
+                        </xhtml:p>
+                    </xhtml:body>
+                </xhtml:html>
+            </Content>
+        </Frame>
+    </Page>
+    <Page Name="Empty Left" Padding="20px" PageSize="Letter" PageType="emptyleft" PaddingLeft="1in" PaddingRight="1in" PaddingTop="1in" PaddingBottom="1in" Orientation="portrait" BleedBottom="0.25in" BleedTop="0.25in" BleedRight="0.25in" BleedLeft="0.25in">
+        <Frame Flow="footer" Height="47px" Anchors="Left,Right,Bottom" Right="0px" Bottom="0px" X="0px" Y="817px" Width="624px" TextAlign="left" VerticalAlign="top">
+            <Content>
+                <xhtml:html xmlns:xhtml="http://www.w3.org/1999/xhtml">
+                    <xhtml:head>
+                    </xhtml:head>
+                    <xhtml:body>
+                        <xhtml:p xhtml:class="FrameFooterText"><MadCap:variable xhtml:name="System.PageNumber" />
+                        </xhtml:p>
+                    </xhtml:body>
+                </xhtml:html>
+            </Content>
+        </Frame>
+        <Frame X="156px" Y="407px" Width="312px" Height="51px" Flow="decoration" Right="156px" Bottom="406px" Anchors="Left,Right,Top,Bottom">
+            <Content>
+                <xhtml:html xmlns:xhtml="http://www.w3.org/1999/xhtml">
+                    <xhtml:body>
+                        <xhtml:p xhtml:class="EmptyPageText" xhtml:style="text-align: center;">This page intentionally left blank to ensure new chapters start on right (odd number) pages.</xhtml:p>
+                    </xhtml:body>
+                </xhtml:html>
+            </Content>
+        </Frame>
+    </Page>
+    <Page Name="Right" Padding="20px" PageSize="Letter" PageType="right" PaddingLeft="1in" PaddingRight="1in" PaddingTop="1in" PaddingBottom="1in" Orientation="portrait" BleedBottom="0.25in" BleedTop="0.25in" BleedRight="0.25in" BleedLeft="0.25in">
+        <Frame Flow="body" Y="0px" Bottom="72px" X="0px" Right="0px" ColumnCount="1" ColumnGap="30px" ColumnDivider="Solid 1px Red" Anchors="Left,Right,Top,Bottom" Width="624px" Height="792px">
+        </Frame>
+        <Frame Flow="footer" Height="47px" Anchors="Left,Right,Bottom" Right="0px" Bottom="0px" X="0px" Y="817px" Width="624px" TextAlign="right" VerticalAlign="top">
+            <Content>
+                <xhtml:html xmlns:xhtml="http://www.w3.org/1999/xhtml">
+                    <xhtml:head>
+                    </xhtml:head>
+                    <xhtml:body>
+                        <xhtml:p xhtml:class="FrameFooterText" xhtml:style="text-align: right;"><MadCap:variable xhtml:name="System.PageNumber" />
+                        </xhtml:p>
+                    </xhtml:body>
+                </xhtml:html>
+            </Content>
+        </Frame>
+    </Page>
+</PageStyles>

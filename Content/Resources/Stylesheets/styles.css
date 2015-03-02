@@ -1,0 +1,493 @@
+/*<meta />*/
+
+body
+{
+	color: #404040;
+	font-family: Arial;
+	font-size: 8pt;
+	line-height: 13px;
+	margin: 8px;
+}
+
+a:link
+{
+	color: #2D8DCC;
+	font-weight: bold;
+}
+
+a:visited
+{
+	color: #2D8DCC;
+}
+
+Div.GlossaryPageDefinition
+{
+	color: #e1e1e1;
+	font-size: 9pt;
+}
+
+Div.GlossaryPageHeading
+{
+	border-bottom-color: #bed230;
+	border-bottom-style: solid;
+	border-bottom-width: 1px;
+	color: #bed230;
+	font-size: 11pt;
+}
+
+Div.GlossaryPageTerm
+{
+	color: #bed230;
+	font-size: 10pt;
+	padding-bottom: 10px;
+	padding-top: 10px;
+}
+
+h1
+{
+	border-bottom: none;
+	color: #bed230;
+	font-family: 'Century Gothic';
+	font-size: 22pt;
+	font-weight: normal;
+	frame-break-after: always;
+	line-height: 24pt;
+	margin-bottom: 20px;
+	margin-left: 0;
+	margin-right: 0;
+	margin-top: 0;
+	mc-heading-level: 5;
+	padding: 0;
+	page-break-before: avoid;
+}
+
+h2
+{
+	border-bottom: none;
+	color: #5e6914;
+	font-family: 'Century Gothic';
+	font-size: 16pt;
+	font-weight: normal;
+	line-height: 18pt;
+	margin-bottom: 12px;
+	margin-left: 0;
+	margin-right: 0;
+	margin-top: 30px;
+	mc-heading-level: 0;
+	padding: 0;
+}
+
+h2.DarkBackground
+{
+	color: #bed230;
+}
+
+li
+{
+	margin-bottom: 6px;
+	margin-top: 6px;
+	orphans: 2;
+	widows: 2;
+}
+
+MadCap|glossaryProxy
+{
+	border-top: none;
+	color: #e1e1e1;
+}
+
+MadCap|indexProxy
+{
+	border-top: none;
+	color: #e1e1e1;
+}
+
+MadCap|tocProxy
+{
+	border-top: none;
+	margin-right: 0.25in;
+}
+
+MadCap|xref
+{
+	color: #404040;
+	font-weight: normal;
+	mc-format: '{quote}{para}{quote} {pageref}';
+	text-decoration: none;
+}
+
+MadCap|xref.IndexPageNumber
+{
+	color: #BED230;
+}
+
+p
+{
+	margin-bottom: 8px;
+	margin-top: 8px;
+}
+
+p.Author
+{
+	font-family: 'Century Gothic';
+	font-size: 12pt;
+	text-align: center;
+}
+
+p.Bibliography
+{
+	color: #e1e1e1;
+	padding-left: 35px;
+	text-indent: -35px;
+}
+
+p.ChapterNumber
+{
+	color: #3e3e3e;
+	font-family: 'Century Gothic';
+	font-size: 12pt;
+	font-weight: bold;
+	line-height: 14pt;
+	margin-bottom: 0;
+	mc-auto-number-position: inside-head;
+	mc-auto-number-format: 'CH:CHAPTER {chapnum}';
+	mc-heading-level: 4;
+}
+
+p.Copyright
+{
+	margin-bottom: 8px;
+	margin-top: 8px;
+}
+
+p.CopyrightAddress
+{
+	margin-bottom: 0px;
+	margin-top: 0px;
+}
+
+p.CopyrightHeading
+{
+	page-break-before: always;
+}
+
+p.CreatedUsingFlare
+{
+	font-weight: bold;
+	margin-top: 18px;
+}
+
+p.EmptyPageText
+{
+	font-size: 10pt;
+	font-weight: bold;
+}
+
+p.FirstParagraphOfChapter
+{
+	color: #e1e1e1;
+}
+
+p.FirstParagraphOfChapter:first-letter
+{
+	color: #bed230;
+	float: left;
+	margin-bottom: 0px;
+	font-size: 36pt;
+	margin-left: -2pt;
+	margin-top: 21pt;
+}
+
+p.FirstPageOfChapter
+{
+	color: #e1e1e1;
+}
+
+p.FrameFooterText
+{
+	font-family: 'Century Gothic';
+	font-size: 24pt;
+}
+
+p.FrameFooterText2
+{
+	color: #404040;
+	font-family: 'Century Gothic';
+	font-size: 11pt;
+}
+
+p.FrontAndBackmatterHeadings
+{
+	border-bottom: none;
+	color: #bed230;
+	font-family: 'Century Gothic';
+	font-size: 22pt;
+	font-weight: normal;
+	frame-break-after: always;
+	line-height: 24pt;
+	margin-bottom: 20px;
+	margin-left: 0;
+	margin-right: 0;
+	margin-top: 0;
+	mc-heading-level: 3;
+	padding: 0;
+	page-break-before: avoid;
+}
+
+p.Green
+{
+	color: #bed230;
+}
+
+p.IndexHeading
+{
+	font-size: 11pt;
+	padding-top: 16px;
+	text-align: left;
+}
+
+p.Subtitle
+{
+	font-family: 'Century Gothic';
+	font-size: 14pt;
+	margin-bottom: .75in;
+	margin-top: 18pt;
+	text-align: center;
+}
+
+p.Title
+{
+	color: #bed230;
+	font-family: 'Century Gothic';
+	font-size: 30pt;
+	line-height: 0;
+	margin-top: 2.30in;
+	text-align: center;
+}
+
+p.TOC1
+{
+	font-size: 12pt;
+	font-weight: normal;
+	color: #bed230;
+	margin-top: 18px;
+	margin-bottom: 12px;
+	mc-leader-format: ' ';
+	mc-pagenum-display: none;
+	page-break-after: avoid;
+}
+
+p.TOC2
+{
+	font-weight: normal;
+	margin-bottom: 12px;
+	margin-top: 12px;
+	margin-left: 0.25in;
+	color: #bed230;
+	font-size: 12pt;
+	mc-leader-format: ' ';
+	mc-pagenum-display: none;
+	page-break-after: avoid;
+}
+
+p.TOC3
+{
+	color: #ffffff;
+	margin-left: 0pt;
+	font-size: 11pt;
+}
+
+p.TOC4
+{
+	margin-left: 0.5in;
+	color: #ffffff;
+	font-size: 10pt;
+	mc-leader-format: ' ';
+	mc-pagenum-display: none;
+	page-break-after: avoid;
+}
+
+p.TOC5
+{
+	color: #ffffff;
+	margin-left: 0.75in;
+	font-size: 10pt;
+}
+
+p.TOCHeading
+{
+	border-bottom: none;
+	color: #bed230;
+	font-family: 'Century Gothic';
+	font-size: 22pt;
+	font-weight: normal;
+	line-height: 24pt;
+	margin-bottom: 20px;
+	margin-left: 0;
+	margin-right: 0;
+	margin-top: 0;
+	mc-heading-level: 0;
+	padding: 0;
+}
+
+p.VolumeNumber
+{
+	color: #3e3e3e;
+	font-family: 'Century Gothic';
+	font-size: 90pt;
+	font-weight: normal;
+	letter-spacing: -1px;
+	line-height: 92pt;
+	mc-auto-number-position: inside-head;
+	mc-auto-number-format: 'GH:VOLUME {volnum}';
+	mc-heading-level: 1;
+	text-align: center;
+}
+
+p.VolumeTitle
+{
+	border-bottom: none;
+	color: #bed230;
+	font-family: 'Century Gothic';
+	font-size: 22pt;
+	font-weight: normal;
+	line-height: 24pt;
+	margin-bottom: 20px;
+	margin-left: 0;
+	margin-right: 0;
+	margin-top: 0;
+	mc-heading-level: 2;
+	padding: 0;
+	page-break-before: avoid;
+}
+
+span.ChapNum
+{
+	
+}
+
+span.Italic
+{
+	font-style: italic;
+}
+
+span.VolNum
+{
+	
+}
+
+@media eBook
+{
+	h1
+	{
+		color: #bed230;
+		margin-top: 50px;
+		mc-auto-number-format: 'CHAPTER {chapnum} ';
+		mc-auto-number-class: ChapNum;
+		mc-heading-level: 4;
+	}
+	
+	Div.GlossaryPageDefinition
+	{
+		color: #404040;
+	}
+	
+	Div.GlossaryPageTerm
+	{
+		color: #000000;
+	}
+	
+	MadCap|glossaryProxy
+	{
+		
+	}
+
+	MadCap|xref.IndexPageNumber
+	{
+		color: #000000;
+	}
+
+	p.Bibliography
+	{
+		color: #404040;
+	}
+
+	p.FirstPageOfChapter
+	{
+		color: #404040;
+	}
+
+	p.FirstParagraphOfChapter
+	{
+		color: #404040;
+	}
+	
+	p.FrontAndBackmatterHeadings
+	{
+		margin-top: 50px;
+	}
+	
+	p.Index1
+	{
+		color: #404040;
+		margin-left: 0px;
+	}
+
+	p.IndexHeading
+	{
+		color: #bed230;
+		margin-left: 0px;
+		padding-left: 0px;
+	}
+
+	p.Index2
+	{
+		color: #404040;
+	}
+
+	p.TOC3
+	{
+		color: #000000;
+	}
+
+	p.TOC4
+	{
+		color: #000000;
+		margin-left: 0.25in;
+	}
+
+	p.TOC5
+	{
+		color: #000000;
+	}
+	
+	p.VolumeNumber
+	{
+		mc-heading-level: 0;
+	}
+	
+	p.VolumeTitle
+	{
+		color: #bed230;
+		font-size: 40pt;
+		margin-top: 200px;
+		mc-auto-number-format: 'VOLUME {volnum} ';
+		mc-auto-number-class: VolNum;
+		mc-heading-level: 1;
+		text-align: center;
+	}
+
+	span.ChapNum
+	{
+		color: #3e3e3e;
+		font-family: 'Century Gothic';
+		letter-spacing: -1px;
+	}
+
+	span.VolNum
+	{
+		color: #3e3e3e;
+		font-family: 'Century Gothic';
+		letter-spacing: -1px;
+	}
+}
